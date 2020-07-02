@@ -1,4 +1,4 @@
-import {ADD_TO_CART} from './actionType';
+import {ADD_TO_CART, ADD_TO_ORDER} from './actionType';
 
 export const addToCart=payload=>{
     return{
@@ -6,3 +6,7 @@ export const addToCart=payload=>{
         payload
     }
 }
+export const addToOrder = (payload) => ({
+    type: ADD_TO_ORDER,
+    payload
+})

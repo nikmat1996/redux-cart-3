@@ -9,7 +9,7 @@ function SingleItem(props){
                 <thead>
                 <tr>
                     <th scope="col">Id</th>
-                    <th scope="col">name</th>
+                    <th scope="col">Name</th>
                     <th scope="col">Image</th>
                     <th scope="col">#</th>
                 </tr>

@@ -12,12 +12,22 @@ class Product extends Component{
     }
 
     componentDidMount(){
-        let {id} =this.props.match.params
+        let {id} = this.props.match? this.props.match.params:"" 
+        console.log(id)
+
         const {data}=this.props
         let product=data.find(ele=>Number(ele.id)===Number(id))
-        this.setState({
-            item:[product]
-        })
+        if(id !== undefined){
+            this.setState({
+                item:[product]
+            })  
+        }
+        
+        if(id===undefined){
+            this.setState({
+                item: data
+            })
+        }
     }
     render(){
         const {addToCart}=this.props
@@ -29,9 +39,9 @@ class Product extends Component{
                         <thead>
                         <tr>
                             <th scope="col">Id</th>
-                            <th scope="col">name</th>
+                            <th scope="col">Name</th>
                             <th scope="col">Image</th>
-                            <th scope="col">price</th>
+                            <th scope="col">Price</th>
                             <th scope="col">Category</th>
                             <th scope="col">#</th>
                         </tr>

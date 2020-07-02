@@ -2,14 +2,14 @@
     {
         "id":1,
         "price": 300,
-        "category": "watches",
-        "name":"fastrack",
+        "category": "antique",
+        "name":"rolex",
         "img": "https://images-na.ssl-images-amazon.com/images/I/71vKyimxsiL._UX342_.jpg"
     },{
         "id":2,
         "price": 500,
         "category": "digital",
-        "name":"fastrack",
+        "name":"casio",
         "img": "https://images-na.ssl-images-amazon.com/images/I/71vKyimxsiL._UX342_.jpg"
     },{
         "id":3,
@@ -21,7 +21,7 @@
         "id":4,
         "price": 600,
         "category": "clocks",
-        "name":"fastrack",
+        "name":"titan",
         "img": "https://images-na.ssl-images-amazon.com/images/I/71vKyimxsiL._UX342_.jpg"
     }
 ]
