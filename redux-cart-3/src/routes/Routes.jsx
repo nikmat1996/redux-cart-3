@@ -1,9 +1,9 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
-import Home from '..components/Home';
-import Product from '..components/Product';
-import Cart from '..components/Cart';
-import Order from '..components/Order';
+import Home from '../components/Home';
+import Product from '../components/Product';
+import Cart from '../components/Cart';
+import Order from '../components/Order';
 
 export default function Routes() {
     return (
