@@ -1,0 +1,27 @@
+[
+    {
+        "id":1,
+        "price": 300,
+        "category": "watches",
+        "name":"fastrack",
+        "img": "https://www.fastrack.in/wps/wcm/connect/fastrack/8bcd8f22-217f-47cd-84d9-f3ea45c5fec4/watches_CLP-Allnighter.jpg"
+    },{
+        "id":2,
+        "price": 500,
+        "category": "digital",
+        "name":"fastrack",
+        "img": "https://www.fastrack.in/wps/wcm/connect/fastrack/8bcd8f22-217f-47cd-84d9-f3ea45c5fec4/watches_CLP-Allnighter.jpg"
+    },{
+        "id":3,
+        "price": 400,
+        "category": "analog",
+        "name":"fastrack",
+        "img": "https://www.fastrack.in/wps/wcm/connect/fastrack/8bcd8f22-217f-47cd-84d9-f3ea45c5fec4/watches_CLP-Allnighter.jpg"
+    },{
+        "id":4,
+        "price": 600,
+        "category": "clocks",
+        "name":"fastrack",
+        "img": "https://www.fastrack.in/wps/wcm/connect/fastrack/8bcd8f22-217f-47cd-84d9-f3ea45c5fec4/watches_CLP-Allnighter.jpg"
+    }
+]
