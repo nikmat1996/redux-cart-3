@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import {Link} from "react-router-dom";
-import { addToOrder } from '../redux/action'
+import { addToOrder } from '../redux/action';
 
 class Cart extends Component{
     constructor(props) {
@@ -29,7 +29,6 @@ class Cart extends Component{
             mobile:''
         })
     }
-    
 
     render(){
         const { cart } = this.props
